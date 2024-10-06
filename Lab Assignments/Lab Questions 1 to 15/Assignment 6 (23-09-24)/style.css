@@ -1,0 +1,67 @@
+*{
+    margin: 3px;
+    padding: 1px;
+    overflow: hidden;
+}
+body{
+    background-image: url('./bg.png');
+    background-size: contain;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 98vw;
+    height: 50px;
+    background-color: bisque;
+    border: 4px solid rgb(53, 53, 53);;
+}
+.header p{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium';
+    letter-spacing: .45rem;
+}
+.text{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(53, 53, 53);
+}
+h2{
+    text-align: center;
+    margin-bottom: 13px;
+}
+hr{
+    border: none;
+    border-top: 3px solid rgb(255, 215, 166);
+}
+.contents{
+    height: 600px;
+    width: 550px;
+    max-width: fit-content;
+    margin: 90px auto;
+    background-color:bisque;
+    border: 4px solid rgb(53, 53, 53);
+    border-radius: 1.3rem;
+}
+.contents .text{
+    font-size: 16px;
+}
+th{
+    transform: translateY(-32px);
+    line-height: 15px;
+}
+td{
+    line-height: 45px;
+}
+input, textarea, select{
+    background-color: rgb(255, 215, 166);
+    outline: none;
+    border: 1px solid rgb(53, 53, 53);;
+    border-radius: .4rem;
+    padding: 5px 5px
+}
+#submit{
+    width: 100px;
+}
+#submit:hover{
+    cursor: pointer;
+}

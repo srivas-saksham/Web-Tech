@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Appointment Forum</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <div class="main">
+        <div class="contents">
+            <h2 class="heading">Doctor Appointment Forum</h2>
+            <hr>
+            <form class="form" action="none">
+                <table>
+                    <tr>
+                        <th>
+                            <label for="101" class="text"> Appointment Date</label> <br><br>
+                            <label for="102" class="text"> Appointment Time</label> <br><br>
+                            <label for="103" class="text"> Full Name</label> <br><br>
+                            <label for="104" class="text"> Gender</label> <br><br>
+                            <label for="105" class="text">Phone Number</label> <br><br>
+                            <label for="106" class="text">Address</label> <br><br>
+                            <label for="107" class="text">Your Query</label><br><br><br><br>
+                            <label for="108" class="text">Appointment Type</label>
+                        </th>
+                        <td>
+                            <input type="date" id="101" required>
+                            <br>
+                            
+                            <input type="time" id="102" required>
+                            <br>
+                            
+                            <input type="Name" id="103" placeholder="First Name" required>
+                            <input type="Name" id="103" placeholder="Last Name" required>
+                            <br>
+                            <label for="104.1" class="text">Male</label>
+                            <input type="radio" id="104.1" name="Gender" value="Male" required>
+                            <label for="104.2" class="text">Female</label>
+                            <input type="radio" id="104.2" name="Gender" value="Female" required>
+                            <br>
+                            
+                            <input type="tel" id="105" name="Phone" pattern="[0-9]{10}" maxlength="10"
+                            minlength="10" placeholder="Contact No." required>
+                            <br>
+                            
+                            <input type="text" id="106" name="Address" placeholder="City Name">
+                            <input type="text" id="106" name="Address" placeholder="State Name">
+                            <br>
+                            
+                            <textarea id="107" name="Query" placeholder="Enter Your Concern" rows="3" cols="15"></textarea>
+                            <br>
+                            <legend>Select which Appointment(s) you require</legend>
+                            <input type="checkbox" id="108.1" name="CheckBox">
+                            <label for="108.1">Cervix Checkup</label><br>
+                            <input type="checkbox" id="108.2" name="CheckBox">
+                            <label for="108.2">Heart Checkup</label><br>
+                            <input type="checkbox" id="108.3" name="CheckBox">
+                            <label for="108.3">Eye Checkup</label><br>
+                            <input type="checkbox" id="108.4" name="CheckBox">
+                            <label for="108.4">Hearing Test</label>
+                            <br>
+                            <input type="submit" value="Send" />
+                        </td>
+                    </tr>
+                
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

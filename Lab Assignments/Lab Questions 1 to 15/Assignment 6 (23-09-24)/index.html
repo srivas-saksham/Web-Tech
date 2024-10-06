@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Forum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <p class="text">Student Registration Form</p>
+    </div>
+    <div class="contents">
+        <h2 class="heading">Fill out the Following Forum</h2>
+        <hr>
+        <form class="form" action="none">
+            <table>
+                <tr>
+                    <th>
+                        <label for="101" class="text">Full Name</label> <br><br><br>
+                        <label for="102" class="text">Date of Birth</label> <br><br><br>
+                        <label for="103" class="text">Gender</label> <br><br><br>
+                        <label for="104" class="text">Opt Degree</label> <br><br><br>
+                        <label for="105" class="text">12th Percentage</label> <br><br><br>
+                        <label for="106" class="text">Phone Number</label> <br><br><br>
+                        <label for="107" class="text">Address</label> <br><br><br>
+                        <label for="108" class="text">Marksheet XII</label> <br><br><br>
+                        <label for="109" class="text">Medical Certificate</label> <br><br><br>
+                        <label for="110" class="text">Your Query</label>
+                    </th>
+                    <td>
+                        <input type="Name" id="101" placeholder="First Name" required>
+                        <input type="Name" id="101" placeholder="Last Name" required>
+                        <br>
+
+                        <input type="date" id="102" required>
+                        <br>
+
+                        <label for="103.1" class="text">Male</label>
+                        <input type="radio" id="103.1" name="Gender" value="Male" required>
+                        <label for="103.2" class="text">Female</label>
+                        <input type="radio" id="103.2" name="Gender" value="Female" required>
+                        <br>
+                        
+                        <select name="Degree" id="104" required>
+                            <option value="please select">--Select and Option--</option>
+                            <option value="BBA"> BBA </option>
+                            <option value="BcA"> BCA </option>
+                            <option value="BJMC"> BJMC </option>
+                            <option value="BMS"> BMS </option>
+                            <option value="BSc"> BSc </option>
+                        </select>
+                        <br>
+
+                        <input type="number" name="percentage" id="105" placeholder="Percentage" required>
+                        <br>
+
+                        <input type="tel" id="106" name="Phone" pattern="[0-9]{10}" maxlength="10"
+                        minlength="10" placeholder="Contact No." required>
+                        <br>
+                        
+                        <input type="text" id="107" name="Address" placeholder="City Name">
+                        <input type="text" id="107" name="Address" placeholder="State Name" required>
+                        <br>
+                        
+                        <input type="file" name="Marksheet" id="108" accept=".pdf" required>
+                        <br>
+                        <input type="file" name="Medical" id="109" accept=".pdf" required>
+
+                        <textarea id="110" name="Query" placeholder="Enter Your Concern" rows="3" cols="15"></textarea>
+                        <br>
+                        <input id="submit" type="submit" value="Submit" />
+                    </td>
+                </tr>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    overflow: hidden;
+}
+.text{
+    line-height: 30px;
+    text-align: center;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+#page4{
+    background-image: url("./diary\ Bg.jpg");
+    background-size: cover;
+}
+div{
+    margin: 200px auto;
+    width: 500px;
+}
+.diaryMain{
+    font-size: 100px;
+    font-family:'Gill Sans';
+    margin: 60px 0px;
+}
+.asusR{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 150px;
+    text-align: justify;
+}
+.asusR2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    font-size: 100px;
+    line-height: 150px;
+    text-align: justify;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+#asusLPT{
+    width: 700px;
+    position: fixed;
+    z-index: 1;
+    top: 15vh;
+    left: 27vw;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Maps & Hotspots</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="indexPage">
+    <h1 class="text">Lab Assignment 5: <small>Image Maps</small></h1>
+    <map name="flatLay">
+        <area shape="rect"
+        coords="375,158,645,416"
+        href="./page2.html"
+        target="_blank">
+        <area shape="poly"
+        coords="383,494,434,432,478,527,363,652,333,514"
+        href="./page3.html"
+        target="_blank">
+        <area shape="poly"
+        coords="740,262,915,336,806,552,654,478"
+        href="./page4.html"
+        target="_blank">
+        <area shape="poly"
+        coords="0,9,236,295,544,56,505,0"
+        href="./page5.html"
+        target="_blank">
+    </map>
+    <img usemap="#flatLay" src="./Flat Lay.png" alt="Flat Lay" usemap="flatLay" id="mainImg">
+</body>
+</html>
