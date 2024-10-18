@@ -1,0 +1,27 @@
+*{
+    margin: 14px 15px;
+}
+body{
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+p:nth-child(2){
+    font-size: 31px;
+}
+p:nth-child(3){
+    font-weight: 700;
+}
+p:nth-child(4){
+    font-family:'Courier New', Courier, monospace;
+}
+p:nth-child(5){
+    font-style: italic;
+}
+p:nth-child(6){
+    text-decoration: underline;
+}
+p:nth-child(7){
+    text-decoration: line-through;
+}

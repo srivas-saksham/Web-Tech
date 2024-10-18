@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+/* body{
+    background-image: url("/Assets_TBU/Background\ Images/HomeJungleBg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+body{
+    overflow: hidden;
+}
+.jungleBg{
+    position: absolute;
+    z-index: -1;
+    height: 112%;
+}
+#navBarList a{
+    padding: 7px 15px;
+    border: 1px solid aliceblue;
+    border-radius: .8rem;
+    font-weight: 500;
+}
+#hero{
+    margin-top: 40px;
+    color: aliceblue;
+    font-family: "Sofia", sans-serif;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px #383838;
+}
+#hero #protectline{
+    font-size: 30px;
+}
+#hero #tagline{
+    margin-top: 10px;
+    letter-spacing: 4px;
+    font-size: 22px;
+}
+
+@media (max-width: 991px){
+    #hero #protectline{
+        font-size: 24px;
+    }
+    #hero{
+        font-size: 45px;
+    }
+    #hero #tagline{
+        font-size: 17px;
+    }
+}
