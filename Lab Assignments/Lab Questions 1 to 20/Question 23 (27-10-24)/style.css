@@ -1,0 +1,24 @@
+teachers {
+    font-family: Arial, sans-serif;
+}
+
+teacher {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+name {
+    font-weight: bold;
+    color: #333;
+}
+
+subject {
+    color: #007BFF;
+}
+
+experience {
+    font-style: italic;
+    color: #555;
+}

@@ -1,0 +1,6 @@
+<!ELEMENT teachers (teacher+)>
+<!ELEMENT teacher (name, subject, experience)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT experience (#PCDATA)>
+<!ATTLIST teacher id CDATA #REQUIRED>

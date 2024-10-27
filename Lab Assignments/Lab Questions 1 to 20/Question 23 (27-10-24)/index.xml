@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!DOCTYPE teachers SYSTEM "index.dtd">
+
+<teachers>
+    <teacher id="1">
+        <name>Thehar Patel</name>
+        <subject>Mathematics</subject>
+        <experience>10</experience>
+    </teacher>
+    <teacher id="2">
+        <name>Ranujan Kappa</name>
+        <subject>Physics</subject>
+        <experience>5</experience>
+    </teacher>
+    <teacher id="3">
+        <name>Selesky Damodar</name>
+        <subject>Chemistry</subject>
+        <experience>8</experience>
+    </teacher>
+</teachers>

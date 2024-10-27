@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!DOCTYPE bookstore [
+  <!ELEMENT bookstore (book+)>
+  <!ELEMENT book (title, author, price)>
+  <!ELEMENT title (#PCDATA)>
+  <!ELEMENT author (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ATTLIST book category CDATA #IMPLIED>
+]>
+
+<bookstore>
+  <book category="fiction">
+    <title>The Great Gatsby</title>
+    <author>F. Scott Fitzgerald</author>
+    <price>$10.99</price>
+  </book>
+  <book category="non-fiction">
+    <title>A Brief History of Time</title>
+    <author>Stephen Hawking</author>
+    <price>$15.99</price>
+  </book>
+  <book category="fantasy">
+    <title>Harry Potter and the Philosopher's Stone</title>
+    <author>J.K. Rowling</author>
+    <price>$12.99</price>
+  </book>
+</bookstore>
